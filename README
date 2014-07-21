@@ -1,0 +1,27 @@
+项目名称：
+    SQOOP_SEARCH_V3_VIEW
+ 
+环境依赖: 
+    Hadoop,sqoop,python
+ 
+需求：
+    同步search_v3_view,search_info视图数据,并把数据库镜像以json格式保存
+
+数据存储说明：
+    a)数据镜像存放地址:
+         hdfs:/personal/search/share/表名/$current_day
+    b)存放形式：
+        按天存放；时间即为当天作业运行时间的前一天;
+    c)文件格式：
+        json格式，一条数据一行，一行以\n结束
+    d)配置文件
+        conf/conf.ini
+
+运用运维：
+    a) 线上代码地址：
+        172.16.252.32 search用户；
+        /home/search/jiazhiwei/sqoop_search_v3_view
+    b) 线上作业执行情况：
+        作业执行周期为天，每天凌晨1点执行，预计3小时完成
+
+依赖该作业的人员有：发强，圆圆，蔡庭，锡伦

@@ -1,0 +1,15 @@
+dsr_id
+shop_id
+industry_id
+average_rating
+really_rating
+payment_rating
+deliver_rating
+package_rating
+cp_really_rating
+cp_payment_rating
+cp_deliver_rating
+industry_really_range
+industry_payment_range
+industry_deliver_range
+creation_date

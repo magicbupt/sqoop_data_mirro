@@ -1,0 +1,16 @@
+summary_id
+subject_id
+subject_type
+category_path
+total_review_num
+total_question_num
+total_crazy_num
+total_like_num
+total_indifferent_num
+total_dislike_num
+total_detest_num
+average_score
+score_list
+suit_list
+creation_date
+last_changed_date
